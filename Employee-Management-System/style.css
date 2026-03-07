@@ -1,0 +1,152 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+padding:0;
+}
+
+
+/* Navbar */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#333;
+color:white;
+padding:15px 30px;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+
+/* Hero Section */
+
+.hero{
+text-align:center;
+padding:100px 20px;
+background:#f4f4f4;
+}
+
+.hero button{
+padding:10px 20px;
+background:#007BFF;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+
+/* About */
+
+.about{
+padding:50px;
+text-align:center;
+}
+
+
+/* Services */
+
+.services{
+padding:50px;
+background:#f9f9f9;
+text-align:center;
+}
+
+.service-container{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.service-box{
+border:1px solid #ccc;
+padding:20px;
+width:200px;
+}
+
+
+/* Contact */
+
+.contact{
+padding:50px;
+text-align:center;
+}
+
+.contact-form{
+max-width:400px;
+margin:auto;
+display:flex;
+flex-direction:column;
+}
+
+.form-group{
+margin-bottom:15px;
+text-align:left;
+}
+
+.contact-form input,
+.contact-form textarea{
+width:100%;
+padding:10px;
+border:1px solid #ccc;
+}
+
+.contact-form button{
+padding:10px;
+background:#007BFF;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+
+/* Footer */
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+}
+.auth-container{
+width:350px;
+margin:100px auto;
+padding:30px;
+border:1px solid #ccc;
+text-align:center;
+background:white;
+}
+
+.auth-container input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:1px solid #ccc;
+}
+
+.auth-container button{
+width:100%;
+padding:10px;
+background:#007BFF;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+.auth-container a{
+color:#007BFF;
+text-decoration:none;
+}
